@@ -1,0 +1,59 @@
+.cancha {
+     width: 800px;
+     height: 450px;
+     border: 2px solid #FFFFFF;
+     background: #088A08;
+}
+
+.mediaCancha {
+     width: 400px;
+     height: 450px;
+     border: 2px solid #FFFFFF;
+}
+
+.circulo {
+     width: 100px;
+     height: 100px;
+     border: 2px solid #FFFFFF;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     position:absolute; top:180px;
+     position:absolute; left:33%;
+     border-radius: 50%;
+}
+.semiCirculo1 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FFFFFF ;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+    position:absolute; top:180px;
+    position:absolute; left:112px;
+}
+.semiCirculo2 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #FFFFFF ;
+  -moz-border-radius: 100px 0 0 100px;
+  -webkit-border-radius: 100px 0 0 100px;
+  border-radius: 100px 0 0 100px;
+  position:absolute; top:180px;
+  position:absolute; left:605px;
+
+}
+
+.porteria {
+     width: 100px;
+     height: 200px;
+     position:absolute; top:135px;
+     position:absolute; left:1%;
+     border: 2px solid #FFFFFF;
+}
+.porteria:last-of-type {
+     width: 100px;
+     height: 200px;
+     position:absolute; top:135px;
+     position:absolute; left:707px;
+     border: 2px solid #FFFFFF;
+}

@@ -1,9 +1,16 @@
-@font-face {
-    font-family: "SensationsandQualities";
-    src: url(/canchas/SensationsandQualities.ttf);
+body{
+  background-color: #FA58AC;
 }
 h1{
-  font-family: SensationsandQualities;
+  font-family: 'Pacifico', cursive;
+  background-color: #F5A9BC;
+}
+section{
+  background-color: #F5A9BC;
+  font-family: 'Poiret One', cursive;
+}
+img{
+  margin-left: -710px;
 }
 #futbol{
   display: none;
@@ -141,13 +148,13 @@ h1{
   border-radius: 50%;
 }
 #tennis{
-
+  display: none;
 }
 .canchaTennis {
    width: 800px;
    height: 450px;
    border: 2px solid #FFFFFF;
-   background: #088A08;
+   background: #013ADF;
  }
 .rectLaterales {
   width: 800px;
@@ -178,9 +185,9 @@ h1{
   position:absolute; left:800px;
 }
 .rectPeques {
-  width: 496px;
-  height: 96px;
+  width: 501px;
+  height: 113px;
   border: 2px solid #FFFFFF;
   position:absolute; top:290px;
-  position:absolute; left:152px;
+  position:absolute; left:300.5px;
   }

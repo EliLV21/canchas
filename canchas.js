@@ -1,17 +1,17 @@
 var botonFut = document.getElementById("botonFutbol");
-var botonFut = document.getElementById("botonBasquetball");
-var botonFut = document.getElementById("botonTennis");
+var botonBasq = document.getElementById("botonBasquetball");
+var botonTen = document.getElementById("botonTennis");
 var canchaFut = document.getElementById("futbol");
-var canchaFut = document.getElementById("botonBasquetball");
-var canchaFut = document.getElementById("tennis");
+var canchaBasq = document.getElementById("botonBasquetball");
+var canchaTen = document.getElementById("tennis");
 
-function mostrarCancha (cancha) {
-}
+botonFut.addEventListener("click",mostrarFut);
+botonBasq.addEventListener("click", detectarBoton);
+botonTen.addEventListener("click", detectarBoton);
 
+function mostrarFut () {
+  canchaFut.display = "block";
+};
 
 function ocultarCancha(cancha) {
-}
-
-botonFutbol.addEventListener("click",detectarBoton);
-botonBasquetball.addEventListener("click", detectarBoton);
-botonTennis.addEventListener("click", detectarBoton);
+};
